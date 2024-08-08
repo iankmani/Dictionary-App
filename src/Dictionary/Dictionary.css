@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+.Dictionary-page{
+    border: 2px solid red;
+}
+.dictionary-header{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 800;
+    background-color: #FFF5E1;
+}
+.content-place{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue; */
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.content-place p{
+    text-decoration: underline;
+}
+.dictionary-view{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.dictionary-view button{
+    border-radius: 25px;
+}
+.dictionary-view input{
+    border-radius: 10px;
+}
+.defionitions p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
